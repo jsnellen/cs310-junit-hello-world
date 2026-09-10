@@ -48,5 +48,11 @@ public class ExampleTest {
         String actual = main.reverse("Hickory Dickory Dock");
         assertEquals(expectedReverse3, actual);
     }
+
+    @Test
+    public void testReverseMyString() {
+        String actual = main.reverse("Java");
+        assertEquals("avaJ", actual);
+    }
     
 }
